@@ -1,0 +1,93 @@
+nav ul li a {
+    color: #000; /* Texto oscuro */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente claro */
+}
+
+nav {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.imagen-fondo {
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav ul li a {
+    padding: 12px 24px;
+}
+body {
+           background-image: url('ar.png'); /* Ruta de la imagen de fondo */
+            background-repeat: no-repeat;
+           background-size: cover;            /* Ajusta la imagen para que cubra toda la pantalla */
+            background-position: center center; 
+           width:100%;
+           height:100vh;/*cubra toda la pantalla
+            
+    }
+    
+        /* Estilos para el menú de navegación */
+        nav {
+            background-color:darkSeaGreen; /* Color de fondo del menú */
+            
+        }
+
+        nav ul {
+            list-style-type: none; /* Quita los puntos de la lista ya que sin esto aparecen puntos*/
+            margin: 0px;/*hace mas ancho el cuadro del conyacto y eso*/
+            padding: 0px;/*espacio entre los.menus y se centra segun el numero*/
+            display: flex; /* Hace que los elementos de la lista se alineen horizontalmente */
+        }
+
+       
+
+        nav ul li a {
+            display: block;
+            color: white; /* Color del texto */
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none; /* Quita el subrayado de los enlaces */
+        }
+
+        nav ul li a:hover {
+            background-color: teal; /* Color de fondo al pasar o observar*/
+        }
+
+.t{
+       color:black;
+    text-align: center center;
+    
+}
+        
+       
+    .red-text {
+        color: red;
+    }
+    .green-text {
+        color: green;
+    }
+        
+        nav ul li a img {
+  max-height: 70px; /* Tamaño máximo de la altura */
+  min-height: 70px; /* Tamaño mínimo de la altura */
+  width: auto;      /* Mantiene la relación de aspecto */
+}
+        
+        .arco {
+            
+            background: linear-gradient(red,blue,teal);
+            background-clip: text;
+            text-align:center;
+            color: transparent;
+        }
+        .p{
+            text-align:center;
+        }
+                    h3{
+              
+             text-align:center;
+             background: linear-gradient(yellow,cyan,black);
+             background-clip:text;
+             color:transparent;
+                    }
+    
